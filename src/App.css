@@ -1,0 +1,40 @@
+*{margin: 0%;
+padding: 0%;
+font-family: Arial, Helvetica, sans-serif;}
+body{
+    padding: 90px 20%;
+    background-color: #f2ebfb;
+}
+#conatainer{
+    border-radius: 15px;
+    padding: 25px;
+}
+#landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 30px;
+    row-gap: 30px;
+    background-color: white;
+}
+#landing-page>h1{
+    font-size: 38px;
+    color: #150a1c;
+}
+#start-btn{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #511f73;
+    color: white;
+}
+input:hover{
+    cursor: pointer;
+}
+
+
